@@ -63,7 +63,7 @@ public class SimpleTest extends BaseTest {
             public Void call() throws Exception {
                 //client.setId(50);
                 client.setAge(50);
-                em.merge(client);
+//                em.merge(client);
                 return null;
             }
         });
